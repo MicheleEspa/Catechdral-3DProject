@@ -1,0 +1,649 @@
+body {  
+    background-size: 100%;   
+    margin: 0; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+.allinea-a-destra {
+    text-align: right;
+    margin-top: -60px;
+    margin-bottom: +20px;
+    margin-right: 10%;
+  }
+
+.allinea-a-sinistra {
+    text-align: left;
+    margin-top: -60px;
+    margin-bottom: +20px;
+    margin-left: 5%;
+  }
+
+
+
+.Nbar {
+    display: flex;
+    
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+/* Stile per i link nella navbar */
+.Nbar a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 20px; 
+    font-size: 18px; 
+}
+
+
+.Nbar a :hover {
+  color: rgb(116, 116, 116); 
+}
+
+
+
+.Nbar a  {
+transition: color 0.3s ease;
+
+}
+
+
+
+
+
+#title {
+    font-family: 'Old English Gothic Pixel';
+    font-style: unset;
+    font-size: 80px;
+    margin-top: +230px;
+    margin-bottom: -20px;
+    margin-left: +60px;
+    text-align: center;
+
+}
+
+.hovertitle :hover {
+    color: rgb(116, 116, 116); 
+  }
+  
+
+#title2 {
+    text-align: center;
+    margin-left: +60px;
+}
+
+
+
+.titolo {
+    margin-top: -240px;
+    background-image: url("asciiart2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-justify: left;
+    text-align: center;  
+    display: flex; 
+    align-items: center; 
+} 
+
+
+
+
+.descrizione {
+    text-justify: left;
+    margin: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#aqd {
+    width: 75%;
+}
+
+#aqd3 {
+    width: 60%;
+    margin-left: 22%;
+    margin-top: +70px;
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+#galleria {
+    width: 100%; 
+    height: 37%; 
+    margin-top: 40px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+
+
+   
+
+
+}
+
+#galleria2 {
+    width: 100%; 
+    height: 37%; 
+    margin-top: 50px;
+    margin-left: +20px;
+    justify-content: space-between; 
+    align-items: center; 
+
+
+}
+
+
+.Galleria3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Stile per le immagini */
+.imageSocial {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+
+.photo {
+    border: 2px, solid #ccc;
+    margin: 1px;
+
+
+}
+#esplora0 {
+    background-color: black;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+#esplora {
+    margin: 15px;
+    border: 4px solid #ccc;
+    margin: 1px;
+    background-color: grey;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    
+  }
+
+  li {
+    margin-right: 20px; 
+
+  }
+
+h4, h3, h2, p {
+    font-family: 'IBM';
+    color: white;
+    font-style: unset;
+    letter-spacing: -1px; 
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.float-left {
+    float: left;
+  }
+
+.float-right {
+    float: right;
+  }
+
+
+  .containersketch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px; 
+    text-align: justify;
+    align-items: flex-start;
+}
+
+.textsketch {
+    flex: 1;
+    padding-right: 30px; 
+}
+
+.imagesketch {
+    flex: 1;
+    padding-right: 20px;
+    
+}
+
+.imagesketch img{
+    border-left: 4px solid #313131; 
+    border-bottom:  4px solid #131313;
+    border-right: 2px solid #313131;
+    border-top: 2px solid #313131;
+} 
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+text {
+    flex: 1;
+}
+
+
+
+
+
+.div0 {
+    background-color: black; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: +10vh;
+    
+}
+.div1 {
+    background-color: black; 
+    justify-content: center; 
+    align-items: center; /* Allinea al centro verticalmente */
+    
+}
+
+/* Stile per il div interno (div2) */
+
+.div1-5 {
+    background-color: rgb(17, 22, 65); 
+    height: 20px; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin: 0 20px; 
+    border-top: 2px solid #04091a; 
+    border-left: 2px solid #061b1b; 
+}
+
+.square-button {
+    
+    width: 20px; 
+    height: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra il testo orizzontalmente */
+    background-color:  rgb(167, 167, 167);
+    font-style: "IBM";
+    
+    
+}
+
+
+
+.square-button:hover {
+    background-color:  rgb(148, 148, 148);
+  }
+
+
+
+
+.div2 {
+    background-color: gray; 
+    display: flex;
+    justify-content: space-between; 
+    border: 3px solid #2c2c2c; 
+    align-items: flex-start;
+    height: 100vh;
+    
+    
+}
+
+.div22 {
+    background-color: gray; 
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #2c2c2c; 
+    align-items: flex-start;
+    
+    
+    
+}
+
+
+
+
+
+
+/* Stile per il div del testo (div3) */
+.div3 {
+    flex: 1; 
+    margin-right: +150px;
+    
+    padding: 70px; 
+    padding-right: 30px;
+    
+    
+}
+
+
+/* Stile per il div dell'immagine (div4) */
+.div4 {
+    flex: 1; 
+    max-width: 70%; 
+    height: auto; 
+    align-items: right;
+    
+    
+}
+
+.div4 img {
+    
+    border-left: 4px solid #313131; 
+    border-right: 2px solid #313131;
+    border-top: 2px solid #313131;
+    border-bottom:  4px solid #131313;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-container {
+    text-align: center; 
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+
+.text-with-image {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+.text-with-image img {
+    width: 0.75em;
+    height: 0.75em;
+    vertical-align: middle;
+  }
+
+
+
+
+  #Uni:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+    /*CSS per smartphone 1*/
+    .titolo {
+        height: 60vh; 
+        margin-top: -140px;
+    }
+    #aqd {
+        width: 100%;
+    }
+
+
+    #aqd3 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: +80px;
+    }
+
+
+
+
+
+    #title {
+        font-size: 44px;
+        margin-left: -0px;
+         }
+
+    #title2 {
+        text-align: center;
+        margin-left: -0px;
+        }
+    
+
+
+  
+
+    
+        
+    
+    }
+
+    .div1-5 {
+        
+        
+        
+        margin: 0px; 
+        border-top: 2px solid #04091a; 
+        border-left: 2px solid #061b1b; 
+    }
+
+    .div22 {
+        margin: 0px;
+    }
+
+   
+
+
+    .div3 {
+        flex: 1; 
+        margin-right: +10px;
+
+       
+    
+    
+
+        
+    }
+    .div4 {
+        margin-top: 50px;
+        margin-right: 50px;
+        
+    }
+
+
+
+ 
+
+    .imagesketch {
+        margin-top: 85px;
+    }
+    
+    #toolbar {
+        margin-top: 30px;
+    }
+    #toolbar img{
+        
+        margin-top: -35px;
+        
+
+        
+    }
+    
+
+    
+
+
+    
+@media (min-width: 501px) and (max-width: 768px){
+    /*CSS per smartphone 2*/
+    .titolo {
+        height: 80vh; 
+        margin-top: -150px;
+    }
+    #aqd {
+        width: 90%;
+    }
+
+    #aqd3 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: +80px;
+    }
+
+
+
+    #title {
+        font-size: 44px; }
+    
+ 
+    
+    
+    
+    
+}
+
+   
+
+@media (min-width: 769px) and (max-width: 1024px){
+     /*CSS per tablet */
+    .titolo {
+        height: 100vh; 
+    }
+
+    #aqd3 {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: +80px;
+    }
+
+    #title {
+        font-size: 65px;
+
+    }
+
+    
+
+
+
+     }
+
+@media (min-width: 1025px) {
+    /*CSS per desktop */
+    .titolo {
+        height: 125vh; 
+    }
+
+    .div4 { 
+        margin-left: 110px;
+    }
+
+   
+
+    .imagesketch {
+        margin-top: 55px;
+    }
+
+    
+
+    .Nbar a{ 
+        font-size: 22px;
+        margin-left: +50px;
+        margin-right: +50px;
+    }
+
+    .div1-5 {
+        margin: 0 90px; 
+    }
+
+    .div2 {
+       
+        margin: 0 90px; 
+
+
+    }
+
+    .div22 {
+       
+        margin: 0 90px; 
+
+
+    }
+
+ 
+
+    
+
+   
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Old English Gothic Pixel'; 
+    src: url('OldEnglishGothic.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBM'; 
+    src: url('IBm437_IBM_VGA_9x16.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+

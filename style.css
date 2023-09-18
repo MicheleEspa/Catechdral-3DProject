@@ -427,6 +427,7 @@ text {
     .titolo {
         height: 60vh; 
         margin-top: -140px;
+        margin-bottom: -60px; /**/
     }
     #aqd {
         width: 100%;
@@ -451,6 +452,7 @@ text {
     #title2 {
         text-align: center;
         margin-left: -0px;
+         margin-bottom: +110px; /**/
         }
     
 
